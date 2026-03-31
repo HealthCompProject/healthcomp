@@ -1,0 +1,57 @@
+DUAL LICENSE
+
+HealthComp uses a dual-license structure:
+
+================================================================================
+1. SOURCE CODE — GNU Affero General Public License v3 (AGPL-3.0)
+================================================================================
+
+Copyright (C) 2026 HealthComp
+
+The source code of HealthComp is free software: you can redistribute it
+and/or modify it under the terms of the GNU Affero General Public License
+as published by the Free Software Foundation, either version 3 of the
+License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but
+WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Affero General Public
+License for more details.
+
+Full text: https://www.gnu.org/licenses/agpl-3.0.en.html
+
+================================================================================
+2. AGGREGATED DATA — Creative Commons Attribution 4.0 (CC BY 4.0)
+================================================================================
+
+The aggregated compensation benchmarks published by HealthComp (percentile
+statistics, prevalence rates, trend data, and downloadable data exports)
+are licensed under the Creative Commons Attribution 4.0 International
+License.
+
+You are free to:
+  - Share — copy and redistribute the data in any medium or format
+  - Adapt — remix, transform, and build upon the data for any purpose,
+    including commercial use
+
+Under the following terms:
+  - Attribution — You must give appropriate credit (e.g., "Source:
+    HealthComp, healthcomp.org"), provide a link to the license, and
+    indicate if changes were made.
+
+Full text: https://creativecommons.org/licenses/by/4.0/
+
+================================================================================
+3. RAW SUBMISSIONS — Not Licensed
+================================================================================
+
+Individual, raw survey submissions are NOT covered by either license above.
+Raw submissions are stored securely and never published, shared, or made
+available in any form. They are used solely to compute the aggregated
+benchmarks described in section 2.
+
+This distinction exists to protect respondent anonymity. Even with
+anonymization, individual-level compensation records could potentially be
+re-identified when combined with external data. Only aggregated statistics
+that meet minimum threshold requirements (5+ submissions, no single source
+>25%) are ever published.
