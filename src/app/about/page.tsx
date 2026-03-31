@@ -52,7 +52,7 @@ const faqItems = [
   {
     question: 'What technology does HealthComp use?',
     answer:
-      'Next.js, Supabase (PostgreSQL), and Tailwind CSS. The source code is available on GitHub under AGPL-3.0.',
+      'Next.js, Supabase (PostgreSQL), and Tailwind CSS. The source code is available at github.com/HealthCompProject/healthcomp under AGPL-3.0.',
   },
 ];
 
