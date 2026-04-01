@@ -4,7 +4,7 @@ import Footer from '@/components/layout/Footer';
 
 export const metadata: Metadata = {
   title: 'Privacy Policy',
-  description: 'How HealthComp collects, uses, and protects your data.',
+  description: 'How The Healthcare Compensation Project collects, uses, and protects your data.',
 };
 
 export default function PrivacyPage() {
@@ -23,7 +23,7 @@ export default function PrivacyPage() {
           <div className="prose-custom space-y-10">
             <Section title="What We Collect">
               <p>
-                HealthComp collects anonymous compensation data through our
+                The Healthcare Compensation Project collects anonymous compensation data through our
                 survey form. This data includes organizational characteristics
                 (size, region, tax status), role information (title, tenure),
                 and compensation details (salary, incentives, deferred
@@ -97,7 +97,7 @@ export default function PrivacyPage() {
 
             <Section title="Invite Codes">
               <p>
-                HealthComp uses an invite code system to maintain data quality.
+                The Healthcare Compensation Project uses an invite code system to maintain data quality.
                 Each invite code is single-use and tracks only whether it has
                 been used — not who used it. After submitting, you receive 3
                 new codes to share with peers. The invite system creates a trust
@@ -108,10 +108,10 @@ export default function PrivacyPage() {
             <Section title="Data Storage & Security">
               <p>
                 Your data is stored in a secured PostgreSQL database hosted by
-                Supabase with row-level security policies. Direct reads of
-                individual submissions are blocked at the database level — data
-                can only be accessed through aggregation functions that enforce
-                our privacy thresholds.
+                Supabase with row-level security policies. The public API and
+                website only access data through aggregation functions that
+                enforce our privacy thresholds. Individual submissions are never
+                exposed publicly.
               </p>
               <p>
                 All data is transmitted over HTTPS. We do not store raw IP

@@ -1,14 +1,14 @@
 DUAL LICENSE
 
-HealthComp uses a dual-license structure:
+The Healthcare Compensation Project (HealthComp) uses a dual-license structure:
 
 ================================================================================
 1. SOURCE CODE — GNU Affero General Public License v3 (AGPL-3.0)
 ================================================================================
 
-Copyright (C) 2026 HealthComp
+Copyright (C) 2026 The Healthcare Compensation Project
 
-The source code of HealthComp is free software: you can redistribute it
+The source code of this project is free software: you can redistribute it
 and/or modify it under the terms of the GNU Affero General Public License
 as published by the Free Software Foundation, either version 3 of the
 License, or (at your option) any later version.
@@ -24,7 +24,7 @@ Full text: https://www.gnu.org/licenses/agpl-3.0.en.html
 2. AGGREGATED DATA — Creative Commons Attribution 4.0 (CC BY 4.0)
 ================================================================================
 
-The aggregated compensation benchmarks published by HealthComp (percentile
+The aggregated compensation benchmarks published by The Healthcare Compensation Project (percentile
 statistics, prevalence rates, trend data, and downloadable data exports)
 are licensed under the Creative Commons Attribution 4.0 International
 License.

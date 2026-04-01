@@ -20,11 +20,11 @@ export default function DataPage() {
   return (
     <>
       <DatasetJsonLd
-        name="HealthComp Healthcare Executive Compensation Benchmarks"
+        name="Healthcare Compensation Project — Executive Compensation Benchmarks"
         description="Aggregated compensation benchmarks for senior healthcare executives at U.S. hospitals and health systems, including base salary, incentive targets, total cash compensation, and benefits prevalence by role, organization size, and region."
         url={`${BASE_URL}/data`}
         license="https://creativecommons.org/licenses/by/4.0/"
-        creator="HealthComp"
+        creator="The Healthcare Compensation Project"
         dateModified={new Date().toISOString().split('T')[0]}
       />
       <Header />
@@ -41,7 +41,7 @@ export default function DataPage() {
               </span>
             </div>
             <p className="text-white/50 max-w-2xl leading-relaxed">
-              All aggregated HealthComp benchmarks are freely available under
+              All aggregated benchmarks are freely available under
               the{' '}
               <a
                 href="https://creativecommons.org/licenses/by/4.0/"
@@ -213,7 +213,7 @@ export default function DataPage() {
                 may represent more than 25% of any displayed statistic.
               </p>
               <p>
-                HealthComp does not independently verify individual submissions.
+                The Healthcare Compensation Project does not independently verify individual submissions.
                 The data should be treated as a directional benchmark, not a
                 definitive market study. For compensation decisions, consult
                 qualified advisors alongside multiple data sources.

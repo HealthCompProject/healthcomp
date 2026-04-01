@@ -4,7 +4,7 @@ import Footer from '@/components/layout/Footer';
 
 export const metadata: Metadata = {
   title: 'Terms of Use',
-  description: 'Terms and conditions for using the HealthComp platform.',
+  description: 'Terms and conditions for using The Healthcare Compensation Project.',
 };
 
 export default function TermsPage() {

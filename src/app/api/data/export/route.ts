@@ -62,7 +62,7 @@ export async function GET(request: NextRequest) {
 
     const exportData = {
       metadata: {
-        source: 'HealthComp (healthcomp.org)',
+        source: 'The Healthcare Compensation Project (healthcomp.org)',
         license: 'Creative Commons Attribution 4.0 International (CC BY 4.0)',
         license_url: 'https://creativecommons.org/licenses/by/4.0/',
         attribution: 'Source: HealthComp, healthcomp.org',
