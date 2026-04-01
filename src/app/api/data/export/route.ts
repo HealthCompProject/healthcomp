@@ -62,10 +62,10 @@ export async function GET(request: NextRequest) {
 
     const exportData = {
       metadata: {
-        source: 'The Healthcare Compensation Project (healthcomp.org)',
+        source: 'The Healthcare Executive Compensation Project (healthcomp.org)',
         license: 'Creative Commons Attribution 4.0 International (CC BY 4.0)',
         license_url: 'https://creativecommons.org/licenses/by/4.0/',
-        attribution: 'Source: HealthComp, healthcomp.org',
+        attribution: 'Source: The Healthcare Executive Compensation Project, healthcomp.org',
         generated_at: new Date().toISOString(),
         notes: 'All statistics represent aggregated, anonymized data from self-reported submissions. Minimum 5 submissions required for any statistic. No single submission represents more than 25% of any displayed figure.',
       },

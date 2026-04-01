@@ -24,7 +24,7 @@ export default function DataPage() {
         description="Aggregated compensation benchmarks for senior healthcare executives at U.S. hospitals and health systems, including base salary, incentive targets, total cash compensation, and benefits prevalence by role, organization size, and region."
         url={`${BASE_URL}/data`}
         license="https://creativecommons.org/licenses/by/4.0/"
-        creator="The Healthcare Compensation Project"
+        creator="The Healthcare Executive Compensation Project"
         dateModified={new Date().toISOString().split('T')[0]}
       />
       <Header />
@@ -187,11 +187,11 @@ export default function DataPage() {
               How to Cite
             </h2>
             <p className="text-white/50 text-sm mb-4">
-              When using HealthComp data in publications, presentations, or
+              When using this data in publications, presentations, or
               products, please include the following attribution:
             </p>
             <div className="bg-navy-900 rounded-lg p-4 font-mono text-sm text-white/70">
-              Source: HealthComp (healthcomp.org), {new Date().getFullYear()}.
+              Source: The Healthcare Executive Compensation Project (healthcomp.org), {new Date().getFullYear()}.
               Licensed under CC BY 4.0.
             </div>
           </div>
@@ -213,7 +213,7 @@ export default function DataPage() {
                 may represent more than 25% of any displayed statistic.
               </p>
               <p>
-                The Healthcare Compensation Project does not independently verify individual submissions.
+                The Healthcare Executive Compensation Project does not independently verify individual submissions.
                 The data should be treated as a directional benchmark, not a
                 definitive market study. For compensation decisions, consult
                 qualified advisors alongside multiple data sources.

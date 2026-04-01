@@ -11,24 +11,24 @@ import { OrganizationJsonLd, WebSiteJsonLd } from '@/components/seo/JsonLd';
 const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://healthcomp.org';
 
 export const metadata: Metadata = {
-  title: 'HealthComp — The Healthcare Compensation Project',
+  title: 'The Healthcare Executive Compensation Project',
   description:
     'The first free compensation benchmark built by and for healthcare executives at U.S. hospitals and health systems. Anonymous, peer-driven, and independent.',
   alternates: {
     canonical: BASE_URL,
   },
   openGraph: {
-    title: 'HealthComp — The Healthcare Compensation Project',
+    title: 'The Healthcare Executive Compensation Project',
     description:
       'Free, anonymous compensation benchmarking for senior healthcare executives at U.S. hospitals and health systems.',
     url: BASE_URL,
     type: 'website',
     locale: 'en_US',
-    siteName: 'The Healthcare Compensation Project',
+    siteName: 'The Healthcare Executive Compensation Project',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'HealthComp — The Healthcare Compensation Project',
+    title: 'The Healthcare Executive Compensation Project',
     description:
       'Free, anonymous compensation benchmarking for healthcare executives.',
   },
@@ -39,12 +39,12 @@ export default function HomePage() {
     <>
       <OrganizationJsonLd
         url={BASE_URL}
-        name="The Healthcare Compensation Project"
+        name="The Healthcare Executive Compensation Project"
         description="Free healthcare executive compensation benchmarks built by and for senior leaders at U.S. hospitals and health systems."
       />
       <WebSiteJsonLd
         url={BASE_URL}
-        name="The Healthcare Compensation Project"
+        name="The Healthcare Executive Compensation Project"
         description="The first free compensation benchmark built by and for healthcare executives. Anonymous, aggregated, and independent."
       />
       <Header />
@@ -97,7 +97,7 @@ export default function HomePage() {
                   for senior roles.
                 </p>
                 <p>
-                  HealthComp is different. It&apos;s built exclusively for the C-suite
+                  This platform is different. It&apos;s built exclusively for the C-suite
                   and senior leadership at hospitals and health systems. Every data
                   point is structured, validated, and only shown in aggregate with
                   strict privacy thresholds.
@@ -135,7 +135,7 @@ export default function HomePage() {
                     $0
                   </p>
                   <p className="text-sm text-white/40 mt-1">
-                    What HealthComp costs — forever
+                    What this costs — forever
                   </p>
                 </div>
               </div>

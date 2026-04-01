@@ -7,7 +7,7 @@ const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://healthcomp.org';
 export const metadata: Metadata = {
   title: 'About',
   description:
-    'The Healthcare Compensation Project (HealthComp) is a free, open-source compensation benchmarking platform for senior healthcare executives at U.S. hospitals and health systems.',
+    'The Healthcare Executive Compensation Project is a free, open-source compensation benchmarking platform for senior healthcare executives at U.S. hospitals and health systems.',
   alternates: {
     canonical: `${BASE_URL}/about`,
   },
@@ -42,7 +42,7 @@ const faqItems = [
   {
     question: 'Can I use the data?',
     answer:
-      'Yes. All aggregated data is published under Creative Commons Attribution 4.0 (CC BY 4.0). You can share, redistribute, and remix it for any purpose, including commercial use. The only requirement is attribution: \u201cSource: HealthComp, healthcomp.org.\u201d Raw individual submissions are never published or made available.',
+      'Yes. All aggregated data is published under Creative Commons Attribution 4.0 (CC BY 4.0). You can share, redistribute, and remix it for any purpose, including commercial use. The only requirement is attribution: \u201cSource: The Healthcare Executive Compensation Project, healthcomp.org.\u201d Raw individual submissions are never published or made available.',
   },
   {
     question: 'Is the data verified?',
@@ -62,13 +62,12 @@ export default function AboutPage() {
       <Header />
       <main className="flex-1 pt-24 pb-16">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
-          {/* What HealthComp Is */}
           <section className="mb-16">
             <h1 className="font-serif text-3xl sm:text-4xl font-bold text-white mb-6">
-              About The Healthcare Compensation Project
+              About The Project
             </h1>
             <p className="text-white/60 leading-relaxed">
-              The Healthcare Compensation Project (HealthComp) is a free, open-source compensation benchmarking platform for
+              The Healthcare Executive Compensation Project is a free, open-source compensation benchmarking platform for
               senior healthcare executives at U.S. hospitals and health systems. All
               compensation data is self-reported, anonymous, and published in aggregate
               under a{' '}
@@ -132,7 +131,7 @@ export default function AboutPage() {
               Who Built It
             </h2>
             <p className="text-white/60 leading-relaxed">
-              The Healthcare Compensation Project is built and maintained by John Montgomery, an independent
+              The Healthcare Executive Compensation Project is built and maintained by John Montgomery, an independent
               financial advisor and founder of{' '}
               <a
                 href="https://montgo.co"

@@ -4,7 +4,7 @@ import Footer from '@/components/layout/Footer';
 
 export const metadata: Metadata = {
   title: 'Terms of Use',
-  description: 'Terms and conditions for using The Healthcare Compensation Project.',
+  description: 'Terms and conditions for using The Healthcare Executive Compensation Project.',
 };
 
 export default function TermsPage() {
@@ -23,15 +23,15 @@ export default function TermsPage() {
           <div className="prose-custom space-y-10">
             <Section title="Acceptance of Terms">
               <p>
-                By accessing or using HealthComp (&ldquo;the Platform&rdquo;),
+                By accessing or using The Healthcare Executive Compensation Project (&ldquo;the Platform&rdquo;),
                 you agree to these Terms of Use. If you do not agree, please do
                 not use the Platform.
               </p>
             </Section>
 
-            <Section title="What HealthComp Is">
+            <Section title="What This Platform Is">
               <p>
-                HealthComp is a free, independent, open-source compensation
+                The Healthcare Executive Compensation Project is a free, independent, open-source compensation
                 benchmarking platform for senior healthcare executives at U.S.
                 hospitals and health systems. It aggregates self-reported
                 compensation data and presents it in anonymous, statistical
@@ -42,7 +42,7 @@ export default function TermsPage() {
             <Section title="Self-Reported Data">
               <p>
                 All compensation data on this platform is self-reported by
-                participants. HealthComp does not independently verify any
+                participants. The Platform does not independently verify any
                 submissions. While we implement data quality measures (invite
                 codes, input validation, duplicate detection, and aggregation
                 thresholds), we cannot guarantee the accuracy of any individual
@@ -88,7 +88,7 @@ export default function TermsPage() {
                 </li>
               </ul>
               <p>
-                You grant HealthComp a perpetual, irrevocable license to use
+                You grant the Platform a perpetual, irrevocable license to use
                 your anonymized submission data as part of its aggregated
                 benchmarks.
               </p>
@@ -142,7 +142,7 @@ export default function TermsPage() {
 
             <Section title="Open Source Code">
               <p>
-                The HealthComp source code is open source under the{' '}
+                The Platform&apos;s source code is open source under the{' '}
                 <a
                   href="https://www.gnu.org/licenses/agpl-3.0.en.html"
                   target="_blank"
@@ -157,7 +157,7 @@ export default function TermsPage() {
 
             <Section title="Open Data">
               <p>
-                The aggregated compensation benchmarks published by HealthComp
+                The aggregated compensation benchmarks published by the Platform
                 — including percentile statistics, prevalence rates, trend
                 data, and downloadable data exports — are licensed under the{' '}
                 <a
@@ -173,7 +173,7 @@ export default function TermsPage() {
                 You are free to share, redistribute, remix, and build upon the
                 aggregated data for any purpose, including commercial use,
                 provided you give appropriate credit
-                (e.g., &ldquo;Source: HealthComp, healthcomp.org&rdquo;).
+                (e.g., &ldquo;Source: The Healthcare Executive Compensation Project, healthcomp.org&rdquo;).
               </p>
               <p>
                 Updated data exports are published quarterly on our{' '}
@@ -199,21 +199,21 @@ export default function TermsPage() {
 
             <Section title="Trademarks">
               <p>
-                The HealthComp name and logo are trademarks of HealthComp. You
-                may cite HealthComp data in presentations, reports, and articles
-                with proper attribution.
+                The Healthcare Executive Compensation Project name is a trademark
+                of the project. You may cite the Platform&apos;s data in presentations,
+                reports, and articles with proper attribution.
               </p>
             </Section>
 
             <Section title="Limitation of Liability">
               <p>
-                HealthComp is provided &ldquo;as is&rdquo; and &ldquo;as
+                The Platform is provided &ldquo;as is&rdquo; and &ldquo;as
                 available&rdquo; without warranties of any kind, express or
                 implied. We do not warrant that the data is accurate, complete,
                 or current.
               </p>
               <p>
-                To the maximum extent permitted by law, HealthComp and its
+                To the maximum extent permitted by law, the Platform and its
                 operators shall not be liable for any direct, indirect,
                 incidental, consequential, or special damages arising from your
                 use of the Platform or reliance on its data.
@@ -232,7 +232,7 @@ export default function TermsPage() {
             <Section title="Governing Law">
               <p>
                 These Terms are governed by the laws of the United States and
-                the state in which HealthComp operates, without regard to
+                the state in which the Platform operates, without regard to
                 conflict of law provisions.
               </p>
             </Section>

@@ -13,8 +13,9 @@ export default function Header() {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2">
-            <span className="font-serif text-xl font-bold text-white tracking-tight">
-              Health<span className="text-gold-500">Comp</span>
+            <span className="font-serif text-sm sm:text-base font-bold text-white tracking-tight leading-tight">
+              The Healthcare Executive<br className="sm:hidden" />{' '}
+              <span className="text-gold-500">Compensation Project</span>
             </span>
           </Link>
 

@@ -21,8 +21,8 @@ const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://healthcomp.org';
 export const metadata: Metadata = {
   metadataBase: new URL(BASE_URL),
   title: {
-    default: 'HealthComp — The Healthcare Compensation Project',
-    template: '%s | HealthComp',
+    default: 'The Healthcare Executive Compensation Project',
+    template: '%s | The Healthcare Executive Compensation Project',
   },
   description:
     'The first free compensation benchmark built by and for healthcare executives. Anonymous, aggregated data from real hospital and health system leaders.',
@@ -38,19 +38,19 @@ export const metadata: Metadata = {
     'free compensation benchmark',
     'hospital executive pay',
   ],
-  authors: [{ name: 'The Healthcare Compensation Project', url: BASE_URL }],
+  authors: [{ name: 'The Healthcare Executive Compensation Project', url: BASE_URL }],
   openGraph: {
-    title: 'HealthComp — The Healthcare Compensation Project',
+    title: 'The Healthcare Executive Compensation Project',
     description:
       'Free, anonymous compensation benchmarking for senior healthcare executives at U.S. hospitals and health systems.',
     url: BASE_URL,
-    siteName: 'The Healthcare Compensation Project',
+    siteName: 'The Healthcare Executive Compensation Project',
     type: 'website',
     locale: 'en_US',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'HealthComp',
+    title: 'The Healthcare Executive Compensation Project',
     description: 'Free healthcare executive compensation benchmarks.',
   },
   robots: {

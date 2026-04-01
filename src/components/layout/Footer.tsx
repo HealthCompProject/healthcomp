@@ -8,8 +8,9 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
           {/* About */}
           <div>
-            <span className="font-serif text-xl font-bold text-white tracking-tight">
-              Health<span className="text-gold-500">Comp</span>
+            <span className="font-serif text-base font-bold text-white tracking-tight leading-tight">
+              The Healthcare Executive{' '}
+              <span className="text-gold-500">Compensation Project</span>
             </span>
             <p className="mt-4 text-sm text-white/50 leading-relaxed">
               The first free compensation benchmark built by and for healthcare
@@ -89,7 +90,7 @@ export default function Footer() {
 
         {/* Advisory disclaimer */}
         <p className="mt-12 pt-8 border-t border-white/5 text-xs text-white/20 leading-relaxed text-center max-w-3xl mx-auto">
-          The Healthcare Compensation Project provides self-reported, aggregated compensation data for informational
+          The Healthcare Executive Compensation Project provides self-reported, aggregated compensation data for informational
           purposes only. Nothing on this platform constitutes financial, legal, tax, or
           employment advice. Consult qualified professional advisors before making compensation
           decisions. See our{' '}
@@ -101,7 +102,7 @@ export default function Footer() {
 
         <div className="mt-6 pt-6 border-t border-white/5 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-sm text-white/30">
-            &copy; {new Date().getFullYear()} The Healthcare Compensation Project. Code licensed under{' '}
+            &copy; {new Date().getFullYear()} The Healthcare Executive Compensation Project. Code licensed under{' '}
             <a
               href="https://www.gnu.org/licenses/agpl-3.0.html"
               target="_blank"

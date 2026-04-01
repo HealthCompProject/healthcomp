@@ -221,7 +221,7 @@ export default function SubmitPage() {
                   Enter Your Invite Code
                 </h1>
                 <p className="text-white/50 text-sm leading-relaxed">
-                  HealthComp uses invite codes to maintain data quality. Each code is
+                  This platform uses invite codes to maintain data quality. Each code is
                   single-use. After you submit, you&apos;ll receive 3 codes to share
                   with peers.
                 </p>
