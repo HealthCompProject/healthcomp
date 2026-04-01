@@ -175,11 +175,19 @@ export default function SubmitPage() {
       const formData = form.getValues();
       const fingerprint = await generateFingerprint();
 
+      // Clean NaN values from empty optional number fields
+      const cleanedData = Object.fromEntries(
+        Object.entries(formData).map(([key, value]) => [
+          key,
+          typeof value === 'number' && isNaN(value) ? undefined : value,
+        ])
+      );
+
       const res = await fetch('/api/submit', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
-          ...formData,
+          ...cleanedData,
           fingerprint_hash: fingerprint,
           invite_code: inviteCode || undefined,
         }),

@@ -19,8 +19,13 @@ export async function POST(request: NextRequest) {
     const body = await request.json();
     const { fingerprint_hash, invite_code, ...formData } = body;
 
+    // Convert null values to undefined (empty optional number fields arrive as null)
+    const cleanedData = Object.fromEntries(
+      Object.entries(formData).map(([key, value]) => [key, value === null ? undefined : value])
+    );
+
     // Validate form data
-    const result = fullSubmissionSchema.safeParse(formData);
+    const result = fullSubmissionSchema.safeParse(cleanedData);
     if (!result.success) {
       return NextResponse.json(
         { error: 'Validation failed', details: result.error.issues },
